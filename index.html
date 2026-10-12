@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Catherine Raush — Deutschlehrerin</title>
+<meta name="description" content="Deutschunterricht online. Vorbereitung auf Prüfungen, Umzug nach Deutschland und Konversation.">
+
+<!-- Open Graph (для превью в Telegram, WhatsApp, VK) -->
+<meta property="og:title" content="Catherine Raush — Deutschlehrerin">
+<meta property="og:description" content="Deutschunterricht online. Vorbereitung auf Prüfungen, Umzug nach Deutschland und Konversation.">
+<meta property="og:image" content="https://username.github.io/images/Catherine.jpg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://username.github.io/">
+<meta property="og:locale" content="de_DE">
+
+<!-- Favicon -->
+<link rel="icon" href="images/favicon.ico" sizes="any">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+<!-- Флаг для прогрессивного улучшения: скрытие секций только при рабочем JS -->
+<script>document.documentElement.classList.add("js");</script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="scroll-progress"></div>
+
+<!-- NOSCRIPT -->
+<noscript>
+    <p class="noscript-warning">
+        Bitte aktivieren Sie JavaScript für die volle Funktionalität der Seite.
+    </p>
+</noscript>
+
+<!-- NAVIGATION -->
+<nav>
+    <div class="menu" id="menu">
+        <a href="#about" data-i18n="navAbout">Über mich</a>
+        <a href="#courses" data-i18n="navServices">Kurse</a>
+        <a href="#results" data-i18n="navResults">Bewertungen</a>
+        <a href="#contact" data-i18n="navContact">Kontakt</a>
+    </div>
+
+    <div class="right-controls">
+        <div class="lang">
+            <button type="button" data-lang="de">DE</button>
+            <button type="button" data-lang="ru">RU</button>
+            <button type="button" data-lang="en">EN</button>
+        </div>
+
+        <button class="burger" id="burger" type="button"
+                aria-label="Menü öffnen" aria-expanded="false" aria-controls="menu">
+            ☰
+        </button>
+    </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+    <div class="hero-content">
+        <div class="hero-label" data-i18n="herolab">Deutschlehrerin</div>
+        <h1 data-i18n="title">Catherine Raush</h1>
+        <p class="hero-subtitle" data-i18n="subtitle">Deutsch mit Spaß und Erfolg</p>
+
+        <div class="hero-buttons">
+            <a href="#contact" class="button" data-i18n="cta">Kontaktiere mich</a>
+        </div>
+
+        <div class="hero-stats">
+            <div class="stat" data-i18n="stat1"><strong>5+ Jahre</strong><span>Erfahrung</span></div>
+            <div class="stat" data-i18n="stat2"><strong>C2</strong><span>Goethe-Zertifikat</span></div>
+            <div class="stat" data-i18n="stat3"><strong>BAMF</strong><span>Zulassung</span></div>
+        </div>
+    </div>
+
+    <div class="hero-image">
+        <img src="images/Catherine.jpg"
+             alt="Catherine Raush — Deutschlehrerin"
+             fetchpriority="high">
+    </div>
+</header>
+
+<!-- ABOUT -->
+<section id="about" class="about hidden">
+    <div class="about-grid">
+        <div class="about-left">
+            <h2 data-i18n="aboutTitle">Über mich</h2>
+        </div>
+
+        <div class="about-right">
+            <p class="about-text" data-i18n="aboutText"></p>
+
+            <div class="credentials-grid">
+                <div class="credential-card">
+                    <div class="credential-title" data-i18n="cred1"></div>
+                    <div class="credential-description" data-i18n="cred1desc"></div>
+                </div>
+                <div class="credential-card">
+                    <div class="credential-title" data-i18n="cred2"></div>
+                    <div class="credential-description" data-i18n="cred2desc"></div>
+                </div>
+                <div class="credential-card">
+                    <div class="credential-title" data-i18n="cred3"></div>
+                    <div class="credential-description" data-i18n="cred3desc"></div>
+                </div>
+                <div class="credential-card">
+                    <div class="credential-title" data-i18n="cred4"></div>
+                    <div class="credential-description" data-i18n="cred4desc"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- COURSES -->
+<section id="courses" class="courses hidden">
+    <div class="about-grid">
+        <div class="about-left">
+            <h2 data-i18n="servicesTitle">Kurse</h2>
+        </div>
+
+        <div class="about-right">
+            <p class="about-text" data-i18n="servicesIntro"></p>
+
+            <div class="courses-list">
+                <div class="course-card">
+                    <div class="course-title" data-i18n="course1"></div>
+                    <div class="course-description" data-i18n="course1desc"></div>
+                </div>
+                <div class="course-card">
+                    <div class="course-title" data-i18n="course2"></div>
+                    <div class="course-description" data-i18n="course2desc"></div>
+                </div>
+                <div class="course-card">
+                    <div class="course-title" data-i18n="course3"></div>
+                    <div class="course-description" data-i18n="course3desc"></div>
+                </div>
+                <div class="course-card">
+                    <div class="course-title" data-i18n="course4"></div>
+                    <div class="course-description" data-i18n="course4desc"></div>
+                </div>
+                <div class="course-card">
+                    <div class="course-title" data-i18n="course5"></div>
+                    <div class="course-description" data-i18n="course5desc"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- RESULTS -->
+<section id="results" class="results hidden">
+    <div class="about-grid">
+        <div class="about-left">
+            <h2 data-i18n="resultsTitle">Bewertungen</h2>
+        </div>
+
+        <div class="about-right">
+            <p class="about-text" data-i18n="testimonialIntro"></p>
+
+            <div class="testimonials" id="testimonialsContainer"></div>
+
+            <button class="btn-show-more" id="showMoreBtn" type="button"
+                    style="display: none;" data-i18n="showMore">Alle anzeigen</button>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact hidden">
+    <div class="about-grid">
+        <div class="about-left">
+            <h2 data-i18n="contactTitle">Kontakt</h2>
+            <p class="about-text" data-i18n="contactText"></p>
+        </div>
+
+        <div class="about-right">
+            <div class="contact-card">
+                <a class="contact-button" href="https://t.me/micio_78"
+                   target="_blank" rel="noopener noreferrer">Telegram</a>
+                <a class="contact-button" href="https://wa.me/79602563715"
+                   target="_blank" rel="noopener noreferrer">WhatsApp</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p data-i18n="footer">© 2026 Catherine Raush</p>
+</footer>
+
+<!-- FLOATING CONTACT -->
+<div class="floating-contact">
+    <a href="https://t.me/micio_78" target="_blank" rel="noopener noreferrer">Telegram</a>
+    <a href="https://wa.me/79602563715" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+</div>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
